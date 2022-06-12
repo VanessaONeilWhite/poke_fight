@@ -1,0 +1,26 @@
+body{
+    background-image: url(../images/background.png);
+    background-size: cover;
+}
+
+nav li{
+    display:inline-flex;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#nav-logo{
+    /* position: absolute; */
+    height: 50px;
+    width: 100px;
+
+}
+
+#nav-logo img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    left:520px;
+}

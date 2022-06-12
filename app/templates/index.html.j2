@@ -1,0 +1,34 @@
+{% extends 'base.html.j2' %}
+
+{% block css %}
+<link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+{% endblock %}
+
+{% block title %}
+
+  Welcome to Pokebook, search your pokemon!
+
+
+
+{% endblock %}
+
+{% block content %}
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://res.cloudinary.com/dentfkaun/image/upload/v1652372858/anime-pokemon-transparent-background-transparent-background-pokemon-transparent-115630098583zdevt0jim_xqpom6.png" class="pokes d-block w-10" alt="mew">
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/dentfkaun/image/upload/v1652372861/pokemon-transparent-images-png-arts-179246_vsvna1.png" class="pokes d-block w-10" alt="group">
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/dentfkaun/image/upload/v1652372858/586-5867820_pokemon-png-transparent-images-transparent-background-eevee-png_reldib.jpg" class="pokes d-block w-10" alt="eevee">
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/dentfkaun/image/upload/v1652372858/anime-pokemon-transparent-background-transparent-background-pokemon-transparent-115630098583zdevt0jim_xqpom6.png" class=" pokes d-block w-10" alt="group">
+    </div>
+  </div>
+</div>
+
+  <h1>Welcome to Pokebook, search your pokemon!</h1>
+{% endblock %}
